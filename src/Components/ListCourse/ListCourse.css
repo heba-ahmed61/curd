@@ -1,0 +1,97 @@
+.course-list{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.update-course form{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-name span{
+
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+.course-name{
+    margin-left: 5px;
+    width: 80%;
+}
+.course-actions{
+    width:20%;
+
+}
+.course-actions .edit-btn{
+
+    width: 50%;
+    background-color: #6a6a6a;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    padding: 3px 0;
+    cursor: pointer;
+    
+    
+}
+.course-actions .delete-btn{
+
+    width: 50%;
+    background-color: #e14647;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    padding: 3px 0;
+    cursor: pointer;
+    
+    
+}
+.apdate-btn{
+    background-color:#41699A ;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    width: 20%;
+    margin-top: -15px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-size: 17px;
+    
+
+}
+
+input{
+    width: 80%;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+
+    .course-actions{
+        width:100%;
+    
+    }
+    .apdate-btn{
+        width: 100%;
+    }
+
+    
+}
+@media only screen and (max-width:280px){
+
+    .course-actions{
+        width:100%;
+    
+    }
+    .apdate-btn{
+        width: 100%;
+    }
+
+    
+}
